@@ -1,0 +1,24 @@
+# Ignore Editor directories
+.idea/
+.vscode/
+
+# Ignore installed Node Modules
+node_modules/
+
+# Ignore our output build
+dist/
+
+# Ignore any files that should be local
+*.local
+
+# Ignore windows explorer and mac finder created files...
+thumbs.db
+.DS_Store
+
+# Ignore configuration files
+.eslintcache
+.browserslistrc
+.electron-vendors.cache.json
+
+# Ignore the Package Lock file
+package-lock.json
